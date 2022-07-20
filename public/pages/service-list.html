@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Care Center Project - Hypermedia Application, team list">
+    <meta name="author" content="Matteo Vantadori, Ivan Sanzenzi">
+
+    <title>Care Center - Services</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../other/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="../../other/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../assets/css/wfmi-style.css">
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/carecenter.css" rel="stylesheet">
+    
+    <!-- Custom icon -->
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark-blue">
+        <div class="container">
+            <a href="../index.html"><img class="logo-fluid" src="../assets/img/logo.png" alt="Logo"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="404.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="who-we-are.html">Who we are</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="404.html">Help us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="404.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container" id="main">
+
+        <!-- Page Heading -->
+        <h1 class="mt-4 mb-3 title" style="display: inline-block">Services
+            <h4 class="subtitle" style="display: inline">We have no greater interest than the wellness of our hosts.</h4><br>
+        </h1>
+
+        <!-- Breadcrumb -->
+        <ul id="breadcrumb">
+            <li>
+                <a href="../index.html"><i class="material-icons md-dark" id="breadcrumb-home">home</i></a>
+            </li>
+            <li>
+                <a style="color: white !important" id="breadcrumb-last">Services</a>
+            </li>
+            <li>
+                <a> </a>
+            </li>
+        </ul>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sort by</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button" onclick="byType()" id="byType">Category</button>
+                <button class="dropdown-item" type="button" onclick="byLocation()" id="byLocation">Location</button>
+            </div>
+        </div>
+        <div id="label-content">
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 mb-2 col-xs-12">
+                    <h4 class="m-0 text-white footer">CareCenter is an Hypermedia Application project</h4>
+                    <hr style="border-color: cornflowerblue">
+                    <p class="m-0 footer" style="color: cadetblue">Project authors: Ivan Sanzeni, Matteo Vantadori.<br> Copyright 2018 &copy; All right reserved.<br> For any information, contact the headquarter info point.<br>
+                        <i class="material-icons footer">location_on</i> Piazza Leonardo da Vinci, 32 - 20133 Milan<br>
+                        <i class="material-icons footer">call</i> 02 110011<br>
+                        <i class="material-icons footer">account_balance</i> P. IVA 0110000011
+                    </p>
+                </div>
+                <div class="col-sm-4 mb-2 offset-sm-3 col-xs-12">
+                    <div class="row" style="text-align: center">
+                        <div class="col-3">
+                            <i class="fa fa-facebook-f footer-logo" style="color: cadetblue"></i></div>
+                        <div class="col-3">
+                            <i class="fa fa-twitter footer-logo" style="color: cadetblue"></i></div>
+                        <div class="col-3">
+                            <i class="fa fa-instagram footer-logo" style="color: cadetblue"></i></div>
+                        <div class="col-3">
+                            <i class="fa fa-youtube-play footer-logo" style="color: cadetblue"></i></div>
+                    </div><br>
+                    <p class="m-0 footer" style="color: cadetblue">Follow us on social media to keep up with all our news.<br></p>
+                    <hr style="border-color: cornflowerblue">
+                    <p class="m-0 footer" style="color: cadetblue"><i class="fa fa-envelope footer-logo" style="color: cadetblue"></i>SIGN UP TO OUR NEWSLETTER</p>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../other/vendor/jquery/jquery.min.js"></script>
+    <script src="../../other/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/service-list.js"></script>
+
+</body>
+
+</html>
