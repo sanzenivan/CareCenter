@@ -1,14 +1,3 @@
-# General information about the team and the web application
-
-* Bitbucket repo URL: https://polimi-hyp-2018-10459971@bitbucket.org/polimihyp2018team10468326/polimi-hyp-2018-project.git
-
-* Heroku URL: https://tranquil-reaches-62897.herokuapp.com/
-
-* Team administrator: Ivan Sanzeni, 10468326, polimi-hyp-2018-10468326
-
-* Team member n.2 : Matteo Vantadori, 10459971, polimi-hyp-2018-10459971
-
-
 # Client-side language used
 
 * Html
